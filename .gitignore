@@ -1,0 +1,10 @@
+lvds.cache
+lvds.hw
+lvds.ioplanning
+lvds.ip_user_files
+lvds.runs
+lvds.sim
+lvds.tmp
+lvds_tr_tb_behav.wcfg*
+
+
