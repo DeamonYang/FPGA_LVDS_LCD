@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct 23 20:09:42 2019
+# Process ID: 17776
+# Current directory: H:/FPGA/ZYNQ_PL/lvds
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17864 H:\FPGA\ZYNQ_PL\lvds\lvds.xpr
+# Log file: H:/FPGA/ZYNQ_PL/lvds/vivado.log
+# Journal file: H:/FPGA/ZYNQ_PL/lvds\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/FPGA/ZYNQ_PL/lvds/lvds.xpr
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run clk_wiz_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run clk_lvds_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run clk_wiz_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run clk_lvds_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2018) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name MEMEnableMemoryMapGeneration
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/major_soft/soft/xilinx/SDSoc/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Project containing IP 'clk_wiz_0' is read-only.
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2018.2) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'clk_lvds' is locked:
+* Project containing IP 'clk_lvds' is read-only.
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_lvds' (customized with software release 2018.2) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-231] Project 'lvds.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 23 20:12:40 2019...

@@ -66,12 +66,12 @@ module lvds_dis_top(
 //     .clk_in1(clk_i)); 
 	
 	
-	always@(posedge clk_i or negedge rst_n_i)
-	if(!rst_n_i)
-		dis_data <= 24'h55AA00; 
-	else if(new_fram )
-		dis_data <= dis_data + 24'h1;
-	
+//	always@(posedge clk_i or negedge rst_n_i)
+//	if(!rst_n_i)
+//		dis_data <= 24'h55AA00; 
+//	else if(new_fram )
+//		dis_data <= dis_data + 24'h1;
+	assign dis_data = 24'hAA_00_00;
     vga_drv#(
         .PIX_WIDTH(PIX_WIDTH)
     )vga_drv_u0(
